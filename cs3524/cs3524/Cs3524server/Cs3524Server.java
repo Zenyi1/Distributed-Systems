@@ -1,4 +1,4 @@
-package echoexample.echoserver;  
+package cs3524example.cs3524server;  
 
 import java.io.IOException; 
 import java.io.ObjectInputStream; 
@@ -6,7 +6,7 @@ import java.io.ObjectOutputStream;
 import java.net.ServerSocket; 
 import java.net.Socket;
 
-public class EchoServer {
+public class Cs3524Server {
 
     private int port;
     private ObjectInputStream streamFromClient;
@@ -14,7 +14,7 @@ public class EchoServer {
     private ServerSocket serverSocket;
 
 
-    public EchoServer(int port) {
+    public Cs3524Server(int port) {
         this.port = port;
         this.streamFromClient = null;
         this.streamToClient = null;

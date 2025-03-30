@@ -1,4 +1,4 @@
-package echoexample.echoclient;
+package cs3524example.cs3524client;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
-public class EchoClient {
+public class Cs3524Client {
 
     private String host;
     private int port;
@@ -15,7 +15,7 @@ public class EchoClient {
     private ObjectOutputStream streamToServer;
     private ObjectInputStream streamFromServer;
 
-    public EchoClient(String host, int port) {
+    public Cs3524Client(String host, int port) {
         this.host = host;
         this.port = port;
         this.socket = null;
